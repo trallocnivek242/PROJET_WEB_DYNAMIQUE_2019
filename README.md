@@ -1,2 +1,13 @@
 # PROJET_WEB_DYNAMIQUE_2019
 IFOSUP WAVRE WEB DEV DYN 2019-2020
+
+## CONTRIBUTEURS:
+
+* Bruno
+* Kevin
+* Nadzeya
+* Olovier
+
+## SUPERVISEUR:
+
+* Rudy
