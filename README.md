@@ -6,7 +6,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 * Bruno
 * Kevin
 * Nadzeya
-* Olovier
+* Olivier
 
 ## SUPERVISEUR:
 
