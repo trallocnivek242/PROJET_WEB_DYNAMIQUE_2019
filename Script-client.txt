@@ -1,0 +1,145 @@
+﻿Script-client
+Webpack config.php a modifier la racine babel avec un “/” a rajouter.
+
+
+Node -v
+
+
+Npm -v
+
+
+Npm init
+
+
+Npm i webpack --save-dev
+
+
+Création du fichier webpack.config.js
+Créer un fichier nommé webpack.config.js
+
+
+https://sites.google.com/ifosupwavre.be/5xcli-2020/accueil/projet_recette/config-webpack
+"scripts": {
+   "dev": "webpack --mode development"
+
+
+npm i webpack-cli --save-dev
+
+
+npm run dev
+
+
+"scripts": {
+   "dev": "webpack --mode development",
+   "build": "webpack --mode production"
+ },
+
+
+npm run build
+
+
+https://sites.google.com/ifosupwavre.be/5xcli-2020/accueil/projet_recette/dev-server
+
+
+npm i webpack-dev-server --save-dev
+
+
+
+ filename: 'bundle.js'
+ },
+ devServer: {
+   contentBase: './dist'
+ }
+
+
+"build": "webpack --mode production",
+"start": "webpack-dev-server --mode development --open"
+},
+
+
+npm run start
+
+
+test.js
+console.log('Module importé');
+export default 129;
+
+Installation d’un plugin pour sync les fichier html entre eux
+
+
+npm i html-webpack-plugin --save-dev
+
+
+Ajouter le traitement :
+devServer: {
+   contentBase: './dist'
+ },
+ plugins: [
+   new HtmlWebpackPlugin({
+     filename: 'index.html',
+     template: './src/index.html'
+   })
+ ]
+
+
+relancer le script dev(Npm run dev)
+
+
+
+npm i --save-dev @babel/core @babel/cli @babel/preset-env babel-loader
+
+
+npm i --save @babel/polyfill
+
+
+ 
+module: {
+   rules: [
+     {
+       test: /\.js$/,
+       exclude: /node_modules/,
+       use: {
+         loader: 'babel-loader'
+       }
+     }
+   ]
+ }
+}
+
+
+Créer un nouveau fichier .babelrc a la racine du projet.
+{
+ "presets": [
+   ["@babel/env", {
+     "targets": {
+       "browsers": [
+         "last 5 versions",
+         "ie >= 8"
+       ]
+     }
+   }]
+ ]
+}
+
+
+
+
+Il nous faut encore changer le fichier webpack.config.js
+entry: [
+   '@babel-polyfill',
+   './src/js/index.js'
+      ],
+
+
+Ajoutons un peu ES6 dans notre page index.js
+import x from './test';
+const num = 23;
+console.log(`J\'ai importer ${x} d\'un autre module test.js la variable x = ${num}`);
+Lancer le serveur
+Npm run start
+
+
+https://sites.google.com/ifosupwavre.be/5xcli-2020/accueil/projet_recette/modules-es6
+
+
+LE DOM contient les classes css dans le fichier es5 du projet budget
