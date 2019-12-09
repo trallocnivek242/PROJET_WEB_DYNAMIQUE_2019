@@ -10,5 +10,14 @@
     }
     function protect_data($x){
         return htmlspecialchars($x);
-    }
+	}
+	class crud{
+		private $db;
+		private $options = [
+
+		];
+		function __construct(){
+			$this->db = new PDO("mysql:host=;charset=utf8;", 'user', 'pass', $this->options);
+		}
+	}
 ?>
