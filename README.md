@@ -22,7 +22,7 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
 ## INSTALL
 
-### node.js
+### node.js ? (on coderait le js en dur ?)votre avis [Kevin => ou et non, Nadzeya => ?, Olivier => ?, Bruno => ?]
 ### webpack
 ### babel
 ### autre ?
