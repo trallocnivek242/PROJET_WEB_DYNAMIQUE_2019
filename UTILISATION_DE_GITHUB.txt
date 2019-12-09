@@ -1,0 +1,4 @@
+Quand on veux mettre en ligne sur github via le desktop:
+
+1) on verifie si on est bien dans la bonne branche (normalement votre branche)
+2) 
