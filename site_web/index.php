@@ -1,6 +1,6 @@
 <?php 
-    require_once 'includes/fonctions.php';
-    $page = $url_data('page') ? $url_data('page') : 'accueil';
+    require_once './includes/fonctions.php';
+    $page = url_data('page') ? url_data('page') : 'accueil';
 ?>
 <!DOCTYPE html>
     <html lang="fr">
@@ -11,9 +11,9 @@
         <title>Projet architect - <?=$page;?></title>
     </head>
     <body>
-        <?php include_once 'ossature/header.php';?>
-        <?php include_once 'ossature/nav.php';?>
-        <?php include_once 'ossature/main.php';?>
-        <?php include_once 'ossature/footer.php';?>
+        <?php include_once './ossature/header.php';?>
+        <?php include_once './ossature/nav.php';?>
+        <?php include_once './ossature/main.php';?>
+        <?php include_once './ossature/footer.php';?>
     </body>
 </html>
