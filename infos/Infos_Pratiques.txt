@@ -1,0 +1,15 @@
+https://www.atelierb4.be/
+faire un formulaire de remplissage automatique de contract
+parcelle = coordonnees cadastral du terrain
+catgis -> site web cadastral
+winbooks
+recap financier par contract
+mise en place d'alerte
+pour les question s'adreser a rudy
+heures prester => au pourcentage mais mois important
+compta analytique
+mails soit via plateform via site ou non
+db lier a un exel et word pour faiure cahier des charges (un +) mais a voir
+centralliser cahier charges + gestion chantier + finance
+zone admin
+possibilite de faire la chack liste sur tablette ou smartphone (quand ils sont sur chantier)

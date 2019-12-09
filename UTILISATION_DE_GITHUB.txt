@@ -1,0 +1,12 @@
+Quand on veux mettre en ligne sur github via le desktop:
+
+1) on verifie si on est bien dans la bonne branche (normalement votre branche) (en haut a gauche)
+2) on fetch (voir bouton en haut)
+3) on selectionne les fichiers a changer (panneau gauche)
+4) on donne un titre et une description (panneau gauche)
+5) on commit dans sa branche
+6) on fait un 'pull origin'
+7) et on verifie dans sa branche sur le github en ligne que tout c'est bien derouler
+8) Pour infos c'est le chef de groupe qui mettra les donnees dans la branche master et en ligne sur l'hebergeur de test
+
+merci Nivek, votre chef d'equipe ...
