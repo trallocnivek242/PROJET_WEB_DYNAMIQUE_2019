@@ -12,3 +12,4 @@ mails soit via plateform via site ou non
 db lier a un exel et word pour faiure cahier des charges (un +) mais a voir
 centralliser cahier charges + gestion chantier + finance
 zone admin
+possibilite de faire la chack liste sur tablette ou smartphone (quand ils sont sur chantier)
