@@ -38,4 +38,7 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 * Tous les champs de table doit etre en UTF-8 tout comme la db complete
 * autre a venir si besoin ...
 
-## 
+## GESTION SITE
+
+* PHP pour gestion des navigation et gestion db
+* JS pour les petit calcules a faire en local (sur machine client et non serveur)
