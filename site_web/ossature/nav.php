@@ -1,3 +1,3 @@
 <?php 
-    echo $main_nav;
+    //echo $main_nav;
 ?>

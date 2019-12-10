@@ -14,12 +14,13 @@
         <title><?=$config->site_title;?> - <?=$page;?></title>
     </head>
     <body>
-        <?php include_once './ossature/header.php';?>
-        <?php include_once './ossature/nav.php';?>
-        <?php include_once './ossature/arianne.php';?>
+        <?=$_SESSION[$config->site_name]['db']['connect'];?>
+        <?php include_once 'ossature/header.php';?>
+        <?php include_once 'ossature/nav.php';?>
+        <?php include_once 'ossature/arianne.php';?>
         <main>
-            <?php include_once './ossature/main.php';?>
+            <?php include_once 'ossature/main.php';?>
         </main>
-        <?php include_once './ossature/footer.php';?>
+        <?php include_once 'ossature/footer.php';?>
     </body>
 </html>
