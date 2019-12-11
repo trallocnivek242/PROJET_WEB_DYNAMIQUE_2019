@@ -24,6 +24,8 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
 ### LARAVEL 6
 
+[DOCUMENTATION LARAVEL 6](https://laravel.com/docs/6.x)
+
 ## DB
 
 ### APP SQL DBM
