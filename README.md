@@ -7,7 +7,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [x] creer une structure schematique de DB
 
-[ ] creer une structure schematique de site _web_
+[ ] creer une structure schematique de site (web)
 
 [ ] create DB
 
@@ -17,7 +17,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] faire un crud complet pour notre DB
 
-[ ] creer une zone admin > page et login
+[ ] creer une zone admin (page et login)
  
 ## CONTRIBUTEURS:
 
