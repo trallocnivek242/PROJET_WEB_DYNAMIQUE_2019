@@ -63,3 +63,5 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
 * PHP pour gestion des navigation et gestion db
 * JS pour les petit calcules a faire en local (sur machine client et non serveur)
+
+\ https://www.webfx.com/tools/emoji-cheat-sheet/
