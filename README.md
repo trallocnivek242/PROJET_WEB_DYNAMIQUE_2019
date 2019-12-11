@@ -5,7 +5,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] install laravel
 
-[ ] creer une structure schematique de DB
+[x] creer une structure schematique de DB
 
 [ ] creer une structure schematique de site * web *
 
@@ -13,7 +13,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] linker la DB dans laravel
 
-[ ] install server pache en ligne pour avancement en cours (pas en core de lien)
+[ ] install server apache en ligne pour avancement en cours (pas en core de lien) @octocat :;):
 
 [ ] faire un crud complet pour notre DB
 
@@ -38,7 +38,7 @@ aucun pour le moment
 
 Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
-## INSTALL (proposition mais je pense qu'on va le faire en dure et je m'occuperais de la securite des donnees (en plus c'est mon sujet pour veille techno))
+## INSTALL 
 
 ### LARAVEL 6
 
