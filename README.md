@@ -13,7 +13,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] linker la DB dans laravel
 
-[ ] install server apache en ligne pour avancement en cours (pas en core de lien) @octocat :;):
+[ ] install server apache en ligne pour avancement en cours (pas en core de lien) @octocat :smiley:
 
 [ ] faire un crud complet pour notre DB
 
