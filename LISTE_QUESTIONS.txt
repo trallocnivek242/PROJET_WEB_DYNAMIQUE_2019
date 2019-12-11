@@ -1,1 +1,5 @@
-
+1. Qu'est-ce que c'est métré? (KC: ça c'est une bonne question ! RUDY: tu sais nous clarifier cela stp?)
+2. Qu'est-ce que c'est contrat ? Un contrat concerne-t-il un seul chantier ? (KC: je pense qu'il peut y avoir des sous contract pour un meme chantier !)
+3. Qu'est-ce que c'est Tranche appel honoraire ? (KC: ce serait le prix / temps de travail ?)
+4. Qu'est-ce que c'est cahier des charges ? que contient-il? Un cahier des charges concerne-t-il un seul chantier, concerne-t-il un seul contrat ? (KC: par logique je dirais un seul contract)
+5. Qu'est-ce que c'est bilans par contrat ? (KC: c'est pour la gestion financiere en gros pour la comptabilite)

@@ -20,11 +20,11 @@ aucun pour le moment
 
 Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
-## INSTALL
+## INSTALL (proposition mais je pense qu'on va le faire en dure et je m'occuperais de la securite des donnees (en plus c'est mon sujet pour veille techno))
 
 ### node.js ? (on coderait le js en dur ?)votre avis [Kevin => ou et non, Nadzeya => ?, Olivier => ?, Bruno => ?]
-### webpack
-### babel
+### webpack ?
+### babel ?
 ### autre ?
 
 ## DB
