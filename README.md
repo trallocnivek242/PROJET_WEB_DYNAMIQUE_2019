@@ -1,7 +1,7 @@
 # :octocat: PROJET_WEB_DYNAMIQUE_2019
 IFOSUP WAVRE WEB DEV DYN 2019-2020
 
-## TODO CHECKLIST
+## TODO CHECKLIST :white_check_mark:
 
 [ ] install laravel
 
