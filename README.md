@@ -4,12 +4,19 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 ## TODO CHECKLIST
 
 [ ] install laravel
+
 [ ] creer une structure schematique de DB
+
 [ ] creer une structure schematique de site * web *
+
 [ ] create DB
+
 [ ] linker la DB dans laravel
+
 [ ] install server pache en ligne pour avancement en cours (pas en core de lien)
+
 [ ] faire un crud complet pour notre DB
+
 [ ] creer une zone admin ** * page et login * ** 
  
 ## CONTRIBUTEURS:
