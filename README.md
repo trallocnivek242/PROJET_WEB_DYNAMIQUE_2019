@@ -17,7 +17,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] faire un crud complet pour notre DB
 
-[ ] creer une zone admin ** * page et login * ** 
+[ ] creer une zone admin *** page et login *** 
  
 ## CONTRIBUTEURS:
 
