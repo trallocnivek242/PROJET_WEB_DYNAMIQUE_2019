@@ -7,7 +7,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [x] creer une structure schematique de DB
 
-[ ] creer une structure schematique de site * web *
+[ ] creer une structure schematique de site _web_
 
 [ ] create DB
 
