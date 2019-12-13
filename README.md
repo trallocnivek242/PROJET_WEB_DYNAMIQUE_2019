@@ -9,11 +9,11 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] creer une structure schematique de site (web)
 
-[x] create DB
+[x] [create DB avec template](http://213.32.7.70/phpmyadmin) ou [create DB sans template](http://213.32.7.70/phpmyadmin_v5.0)
 
 [ ] linker la DB dans laravel
 
-[ ] faire un crud complet pour notre DB
+[ ] [faire un crud complet pour notre DB](https://www.itsolutionstuff.com/post/laravel-6-crud-application-tutorialexample.html)
 
 [ ] creer une zone admin (page et login)
  
