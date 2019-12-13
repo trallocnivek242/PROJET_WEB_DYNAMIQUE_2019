@@ -3,13 +3,13 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 ## TODO CHECKLIST :white_check_mark:
 
-[ ] install laravel
+[X] install laravel
 
 [x] creer une structure schematique de DB
 
 [ ] creer une structure schematique de site (web)
 
-[ ] create DB
+[x] create DB
 
 [ ] linker la DB dans laravel
 
