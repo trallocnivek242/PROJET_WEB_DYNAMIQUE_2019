@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <p>{{ $db_kc[0] }}</p>
+                    <p>{{ $db_kc[1] }}</p>
                 </div>
 
                 <div class="links">

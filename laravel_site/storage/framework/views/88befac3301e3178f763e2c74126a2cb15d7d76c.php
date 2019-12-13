@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <p><?php echo e($db_kc[0]); ?></p>
+                    <p><?php echo e($db_kc[1]); ?></p>
                 </div>
 
                 <div class="links">
