@@ -13,8 +13,6 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] linker la DB dans laravel
 
-[ ] install server apache en ligne pour avancement en cours (pas en core de lien) :smiley:
-
 [ ] faire un crud complet pour notre DB
 
 [ ] creer une zone admin (page et login)
