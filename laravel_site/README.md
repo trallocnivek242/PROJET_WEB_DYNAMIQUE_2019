@@ -60,6 +60,7 @@ public function boot()
     }
 ```
 Copier le nom du fichier qui a été créer dans database/migrations/
+
 php artisan migrate --path=/database/migrations/2019_12_16_161439_create_users_table.php
 
 
