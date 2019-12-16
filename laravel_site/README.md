@@ -35,7 +35,7 @@ Création d'un nouveau fichier
 php artisan make:migration create_users_table
 
 Insérer dans le nouveau fichier créer le code ci-dessous
-
+```
 public function up()
     {
         Schema::create('users', function (Blueprint $table) {
@@ -50,7 +50,7 @@ public function up()
             $table->timestamps();  
         });
     }
-
+```
 Aller dans le dossier app/providers/AppServiceProvider.php et y changer les données
 
 Ajouter ceci à l'en-tête
