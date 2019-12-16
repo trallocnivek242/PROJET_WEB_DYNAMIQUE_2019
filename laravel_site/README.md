@@ -24,6 +24,7 @@ npm install
 npm run dev
 
 Aller dans database/migrations/
+
 Effacer l'ancien fichier 2014 create_users_table	
 
 Création d'un nouveau fichier
@@ -49,6 +50,7 @@ public function up()
 Aller dans le dossier app/providers/AppServiceProvider.php et y changer les données
 
 Ajouter ceci à l'en-tête
+
 use Illuminate\Support\Facades\Schema;	
 
 
