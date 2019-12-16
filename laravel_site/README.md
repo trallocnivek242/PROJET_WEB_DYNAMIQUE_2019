@@ -1,9 +1,4 @@
 # Release Notes
-<video poster="poster.jpg" width="618" height="347" controls preload> 
-    <source src="https://www.youtube.com/watch?v=_UG6o4PkiQs" media="only screen and (min-device-width: 568px)"></source> 
-    <source src="video.iphone.mp4" media="only screen and (max-device-width: 568px)"></source> 
-    <source src="video.webm"></source> 
-</video>
 
 ### Ajouter login + register
 Créer une db provisoire "laratest" dans phpmyadmin sans table
