@@ -64,13 +64,17 @@ php artisan migrate --path=/database/migrations/2019_12_16_161439_create_users_t
 
 
 php artisan serve	//boot server
+
 ctrl + c
+
 php artisan serve	
+
 if still error
+
 php artisan config:clear
 
 
-php artisan	//pour voir toute les cmds
+php artisan	//pour voir toutes les cmds
 
 
 
