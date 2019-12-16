@@ -7,10 +7,15 @@ Import laravel_site de kevin
 Enlever dans .env les connections a la DB du fichier master de KEV
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=laratest
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 
