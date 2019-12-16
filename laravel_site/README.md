@@ -3,7 +3,7 @@
 ### Ajouter login + register
 Créer une db provisoire "laratest" dans phpmyadmin sans table
 
-Import laravel_site de kevin
+Import laravel_site de master
 
 Enlever dans .env les connections a la DB du fichier master de KEV
 ```
