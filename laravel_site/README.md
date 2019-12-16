@@ -2,6 +2,7 @@
 
 ### Ajouter login + register
 Créer une db provisoire "laratest" dans phpmyadmin sans table
+
 Import laravel_site de kevin
 
 Enlever dans .env les connections a la DB du fichier master de KEV
@@ -14,8 +15,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-composer require laravel/ui --dev 	//installation dans le dossier ressources/views/ du dossier auth, layouts
-
+composer require laravel/ui --dev 
 
 php artisan ui vue --auth
 
