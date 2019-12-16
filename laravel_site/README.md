@@ -1,6 +1,6 @@
 # Release Notes
 
-### Ajouter login + register
+### Ajout du login + register
 Créer une db provisoire "laratest" dans phpmyadmin sans table
 
 Import laravel_site de master
