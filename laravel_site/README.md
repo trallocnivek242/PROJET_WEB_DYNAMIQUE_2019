@@ -6,6 +6,9 @@ Créer une db provisoire "laratest" dans phpmyadmin sans table
 Import laravel_site de master
 
 Enlever dans .env les connections a la DB du fichier master de KEV
+Enlever dans  views/welcome.php les variables de KEV
+Enlever dans routes/web.php le data de KEV et ajouter    ``` return view('welcome');```
+
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -49,7 +52,7 @@ public function up()
 ```
 Aller dans le dossier app/providers/AppServiceProvider.php et y changer les données
 
-Ajouter ceci à l'en-tête
+Ajouter ci-dessous à l'en-tête
 
 use Illuminate\Support\Facades\Schema;	
 
