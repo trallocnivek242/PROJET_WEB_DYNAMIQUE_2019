@@ -9,7 +9,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] creer une structure schematique de site (web)
 
-[x] [create DB avec template]()
+[x] [create DB avec template]
 
 [ ] linker la DB dans laravel
 
