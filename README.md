@@ -9,7 +9,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [ ] creer une structure schematique de site (web)
 
-[x] [create DB avec template](http://213.32.7.70/phpmyadmin) ou [create DB sans template](http://213.32.7.70/phpmyadmin_v5.0)
+[x] [create DB avec template]()
 
 [ ] linker la DB dans laravel
 
