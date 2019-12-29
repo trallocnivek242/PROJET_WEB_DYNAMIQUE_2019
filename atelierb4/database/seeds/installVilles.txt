@@ -1,0 +1,46 @@
+https://packagist.org/packages/bfinlay/laravel-excel-seeder
+copier Villes.csv dans database/seed
+
+composer require --dev bfinlay/laravel-excel-seeder
+
+le database seeder:
+
+<?php
+
+use Illuminate\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+   public function run()
+    {
+         $this->call(UsersTableSeeder::class);
+    }
+}
+
+use bfinlay\SpreadsheetSeeder\SpreadsheetSeeder;
+
+class UsersTableSeeder extends SpreadsheetSeeder
+{
+    public function __construct()
+    {
+        $this->file = '/database/seeds/Villes.csv'; // specify relative to Laravel project base path
+        $this->tablename = 'villes';
+    }
+
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // Recommended when importing larger spreadsheets
+	    DB::disableQueryLog();
+	    parent::run();
+    }
+}
