@@ -11,7 +11,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 [x] [create DB avec template]
 
-[ ] linker la DB dans laravel
+[x] linker la DB dans laravel  [ ] a vérifier si cela fonctionne chez tout le monde
 
 [ ] [faire un crud complet pour notre DB](https://www.itsolutionstuff.com/post/laravel-6-crud-application-tutorialexample.html)
 
