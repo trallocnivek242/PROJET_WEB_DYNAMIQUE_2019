@@ -5,13 +5,13 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 :trophy: [X] install laravel
 
-:checkered_flag: [x] creer une structure schematique de DB
+:trophy: [x] creer une structure schematique de DB
 
 :x: [ ] creer une structure schematique de site (web)
 
-:checkered_flag: [x] [create DB avec template]
+:trophy: [x] [create DB avec template]
 
-:checkered_flag: [x] linker la DB dans laravel  :x: [ ] a vérifier si cela fonctionne chez tout le monde
+:trophy: [x] linker la DB dans laravel  :x: [ ] a vérifier si cela fonctionne chez tout le monde
 
 :x: [ ] [faire un crud complet pour notre DB](https://www.itsolutionstuff.com/post/laravel-6-crud-application-tutorialexample.html)
 
