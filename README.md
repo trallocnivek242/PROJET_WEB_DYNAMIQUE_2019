@@ -44,6 +44,8 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
 ## DB
 
+[DB EN LIGNE](http://213.32.7.70/phpmyadmin/index.php)
+
 ### APP SQL DBM
 
 [SQL DBM APP EN LIGNE](https://app.sqldbm.com/)
