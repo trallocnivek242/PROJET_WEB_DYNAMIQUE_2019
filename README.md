@@ -67,4 +67,5 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 * JS pour les petit calcules a faire en local (sur machine client et non serveur)
 
 \ https://www.webfx.com/tools/emoji-cheat-sheet/
+
 \ https://guides.github.com/features/mastering-markdown/
