@@ -30,7 +30,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 ## HEBERGEUR
 
-OUI
+non [![nop](https://www.hebergeur-discount.com/img/remove-icon.png)](https://github.com/trallocnivek242/PROJET_WEB_DYNAMIQUE_2019/edit/master/README.md)
   
 ## DEVELOPPEMENT EN LOCAL
 
