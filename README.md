@@ -3,19 +3,19 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 ## TODO CHECKLIST :white_check_mark:
 
-[X] install laravel
+:checkered_flag: [X] install laravel
 
-[x] creer une structure schematique de DB
+:checkered_flag: [x] creer une structure schematique de DB
 
-[ ] creer une structure schematique de site (web)
+:x: [ ] creer une structure schematique de site (web)
 
-[x] [create DB avec template]
+:checkered_flag: [x] [create DB avec template]
 
-[x] linker la DB dans laravel  [ ] a vérifier si cela fonctionne chez tout le monde
+:checkered_flag: [x] linker la DB dans laravel  :x: [ ] a vérifier si cela fonctionne chez tout le monde
 
-[ ] [faire un crud complet pour notre DB](https://www.itsolutionstuff.com/post/laravel-6-crud-application-tutorialexample.html)
+:x: [ ] [faire un crud complet pour notre DB](https://www.itsolutionstuff.com/post/laravel-6-crud-application-tutorialexample.html)
 
-[ ] creer une zone admin (page et login)
+:construction: [ ] creer une zone admin (page et login)
  
 ## CONTRIBUTEURS:
 
