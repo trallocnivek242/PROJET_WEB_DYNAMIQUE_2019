@@ -19,14 +19,14 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
  
 ## CONTRIBUTEURS:
 
-* Bruno
-* Kevin
-* Nadzeya
-* Olivier
+* :octocat: Bruno
+* :panda_face: Kevin
+* :octocat: Nadzeya
+* :octocat: Olivier
 
 ## SUPERVISEUR:
 
-* Rudy
+* :ghost: Rudy
 
 ## HEBERGEUR
 
