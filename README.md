@@ -40,6 +40,8 @@ Chemin: dans votre dossier 'www/github/PROJET_WEB_DYNAMIQUE_2019/' de WampServer
 
 ### LARAVEL 6
 
+![LARAVEL 6](https://cdn6.aptoide.com/imgs/4/2/2/422a398f51de0a44541855658a3762d2_icon.png?w=256)
+
 [DOCUMENTATION LARAVEL 6](https://laravel.com/docs/6.x)
 
 ## DB
