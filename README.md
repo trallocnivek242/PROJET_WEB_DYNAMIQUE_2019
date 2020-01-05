@@ -3,7 +3,7 @@ IFOSUP WAVRE WEB DEV DYN 2019-2020
 
 ## TODO CHECKLIST :white_check_mark:
 
-:checkered_flag: [X] install laravel
+:trophy: [X] install laravel
 
 :checkered_flag: [x] creer une structure schematique de DB
 
