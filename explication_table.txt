@@ -1,0 +1,97 @@
+TUTORIEL creer les tables sur Laravel:
+
+On a deja créé le projet et a fait migrations (pour rappler, dans le terminal, sur le bon path du projet on ecrit: php artisan migrate:install).
+On a configuré notre base de donnée.
+On l'a fait deja avant, il ne faut pas repeter.
+
+1. dans le terminal (biensur sur le bon path du projet):
+php artisan make:model -nomTable -m
+
+Cela cree le fichier de la table dans le repertoire migrations, notre cas: 2019_12_23_100603_create_nomTables_table
+(avec -s à la fin du nom).
+Dans ce fichier on a la classe:
+
+class CreateNomTablesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('nomTable', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('nomTable');
+    }
+}
+
+2. Dans ce fichier dans public function up() on cree les champs, par exemple les champs nom, description:
+
+    public function up()
+    {
+        Schema::create('nomTable', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->timestamps();
+						$table->string('nom',40);
+						$table->string('description',200);
+        });
+    }
+
+3. dans le terminal on fait refresh ou rollback:
+php artisan migrate:refresh
+ou
+php artisan migrate:rollback
+et php artisan migrate
+
+4. On regarde dans phpmyadmin, les tables et les champs doivent etre créés.
+
+5. On peut remplir les champs. Dans le repertoire 'seeds' dans le fichier DatabaseSeeder.php on a la classe DatabaseSeeder avec la fonction run(). On ecrit:
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        App\nomTable::create(
+            [
+                'nom' => 'Mon nom',
+                'description' => 'La description est ici',
+            ]
+        );
+	}
+
+6. Dans le terminal on tape: 
+	php artisan db:seeds
+	
+7. On regarde dans phpmyadmin, les tables et les champs doivent etre remplies.
+
+8. Comment creer les clés externes. Par exemple, on veut ajouter la clé externe d'une autre table 'adresses' dans notre table NomTable:
+Pour cela dans le fichier de la table (dans les migrations) on ajoute des champs:
+$table->engine = 'InnoDB'; 
+$table->unsignedBigInteger('adresse_id');
+$table->foreign('adresse_id')
+   ->references('id')
+   ->on('adresses')
+   ->onDelete('restrict');
+ 
+ ou 'id' c'est le nom du champs qui va etre une clé externe d'autre table,
+ 'adresses' c'est le nom de la table,
+ 'restrict' - interdiction de supprimer 
+ 
+
