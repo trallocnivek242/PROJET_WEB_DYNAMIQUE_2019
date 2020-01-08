@@ -1,2 +1,2 @@
-php artisan make:model Villes -mcr
-php artisan make:model Clients -mcr
+php artisan make:model Ville -mcr
+php artisan make:model Client -mcr
