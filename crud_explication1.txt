@@ -1,0 +1,76 @@
+php artisan make::Controller -nom --ressource
+ou
+php artisan make:model -crm  ca donne controlleur, migrations, model; model sera de type ressource
+
+controlleur type:ressource permet d'avoir toutes les methodes pour le CRUD c'est a dire un index, un create, un store, un show, un edit, un update et un destroy dans le Controlleur.
+
+Route::resource('ville', 'VilleController'); //route's URL in your browser
+views:
+on cree un repertoire ville ou on cree deux fichiers index.blade.php et load.blade.php --> regroupement des vues par type, car chaque model/objet a un load et un index, index pour l'affichager entiere et load pour un morceau de code par ajax
+Dans le Controlleur:
+La methode index -> pour afficher une liste de la ressource.
+dans la methode index tu cree ce que tu veux chercher comme  etant un nouvel objet de type model
+$villes = ville::paginate(5); // class ville extends model ; nouvelle ville comme un objet est créé// nombre d'elements d'avoir sur une page
+Il faut s'en servir comme template de ce qu'il y a dans la ville:
+
+ if ($request->ajax()) {
+            return view('ville.load', ['villes' => $villes])->render(); 
+						// ville.load ca veut dire dans le repertoire ville on a le fichier load.blade.php
+        }
+				return view('ville.index', compact('villes'));
+				
+				// render ou compact c'est a peu pres la meme chose pour envoyer les données à la vue en forme d'array
+				// 'villes' devient $villes dans les vues (index.blade.php et load.blade.php) 
+				on regarde si la requete qu'il a reçu est de type ajax. 
+				si c'est le cas il va retourner la vue ajax load --> le template des données à afficher dans le load.blade.php
+S'il n'y a pas de type ajax on envoie la vue de depart --> il envoie une table , c'est 'compact' qui permet faire une table (an array) d'objet ville.
+
+Fonction store() cree un nouveau record et il va servir pour updater le record. 
+on regarde dans le request s'il y en a une id; s'il y a une id, on la prend et on regarde si elle est plus grande que zero. Si c'est zero on estime que c'est une creation d'un nouveau record. si elle est plus grand que zero, c'est un record existant
+on se positionne sur un record. Pour s'y positionner on prend ville et pas //$ville = \App\Ville... on a mis au-dessus "use App\ville;"
+$ville = ville::find($villeId); // on cherche id
+si on la trouve on met à jour avec les données qui sont à la request, ici c'est la ville, le code postal et pour en enregistrer on fait 'save'.
+On fait tout dans le controleur.
+Si on n'a pas d'id, id est 0, c'est ce que c'est un nouvel element , dans $ville on ne met pas find, on cree un nouvel element. 
+-> $ville = new ville;
+ca va creer dans la table comme ville et le modele qui correspond à la table ville, il va creer automatiqement un nouveau record dans cette table. 
+on lit les données en lisant ce qui est dans le request. Et on save.
+En reponse on envoie ce qu'on a suavé (dans tous le cas) en json. Parce que ca doit etre affiché dans la page web. 
+On n'utilise pas show. Ca devrait etre utilisé quand on envoie faire un find de la ville et renvoyer la ville. Ce n'est pas utilisé , on peut le faire.
+Edit. On cherche l'element. On fait par 'where' et on le renvoie. c'est une requete sql : remplace SELECT * where...
+Update. C'est la mise à jour. On passe une request une id: public function update(Request $request, $id);
+Ca ne marche pas avec ajax. 
+Destroy. C'est un DELETE, on lui passe juste une id. Et la tu cherches la ville par un where. Et on supprime ce qu'on a et on renvoie normalement vide (return Response::json($ville);) .
+Les vues. Dans un repertoir ville: index.blade.php et load.blade.php
+index c'est la page d'origine et
+load.blade.php c'est un morceau qui va s'integrer avec le resultat.
+Comment se passe-t-il avec looad. La page d'origine via ajax va appeler le php et va lui demander de lui renvoyer la portion d'html à inserer dans sa page. "la portion d'html" -> ca sera le resultat de la vue load. Vue à laquelle on a vu dans le controlleur on passe une array ville qui est resultat de paginate. Quelle pagination on est, le systeme le gere autematiqement parce que quand tu clicera sur le numero il va te autematiqement te renvoyer des infos en plus que lui il va lire et saura qu'il est sur la page 12 par ex. 
+ Ici <div id="load" style="position: relative;"> . 
+ Dans le div il y a une table (tag). On suppose que a la vue on a passé un parametre et ce parametre s'appelle $ville. Dans le controleur on avait passé: 
+if ($request->ajax()) {
+            return view('ville.load', ['villes' => $villes])->render();
+        }
+
+        return view('ville.index', compact('villes'));
+
+Dans la page vue des qu'on appelera $ville on aura cela.
+
+Dans le load.blade.php encore: on va passer au php , php va parcourir le tableau, prendre chaque fois un element d'un tableau et le mettre dans les villes au singulier: 
+@foreach($villes as $ville)  
+Puis il va tout afficher.
+           <tr id="ville_id_{{ $ville->id }}"> ->directement l'interpretation. 
+Boutons javascript: dans les boutons on met l'id de la ville.
+Ici on va mettre la verification sur users. Si le user n'a pas le droit d'utiliser ce bouton il ne le verra pas. 
+ javascript:void(0) - lien est vide est retourne rien
+ id="edit-ville" - on utilise dans le index.
+ si le user.profil.ville-access est plus grand que '4' (il peut supprimer), on l'affiche ce bouton.
+  {{ $villes->links() }} -> va generer la pagination . Laravel definit 'links'. 
+	
+ Dans index on applique le layout.
+ @extends('layouts.app') c'esr le fichier app.blade.php dans le repertoire 'layouts'
+ 
+ 
+ 
+
+
+
