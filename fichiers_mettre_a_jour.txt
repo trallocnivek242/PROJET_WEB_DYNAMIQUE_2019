@@ -1,0 +1,3 @@
+PROJET_WEB_DYNAMIQUE_2019/atelierb4/resources/views/ville
+PROJET_WEB_DYNAMIQUE_2019/atelierb4/resources/views/layouts/
+PROJET_WEB_DYNAMIQUE_2019/atelierb4/app/Http/Controllers/VilleController.php
